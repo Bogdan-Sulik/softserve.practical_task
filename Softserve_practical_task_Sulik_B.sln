@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "First_task.Hello_world", "Softserve_practical_task_Sulik_B\First_task.Hello_world.csproj", "{F0A869DA-4CBD-4F3E-9CB4-AE05AC13D5A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "First_task.Hello_world", "First_task.Hello_world\First_task.Hello_world.csproj", "{F0A869DA-4CBD-4F3E-9CB4-AE05AC13D5A7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Second_task.Sequential_execution", "Second_task.Sequential_execution\Second_task.Sequential_execution.csproj", "{D79946C6-6542-4493-A91B-2A1E63CF8472}"
 EndProject

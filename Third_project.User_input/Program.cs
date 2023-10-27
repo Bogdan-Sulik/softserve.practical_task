@@ -1,4 +1,6 @@
-﻿namespace Third_project.User_input;
+﻿using ModelsLibrary;
+
+namespace Third_project.User_input;
 
 public class Program
 {

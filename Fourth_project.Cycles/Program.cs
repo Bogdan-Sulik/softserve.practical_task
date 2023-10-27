@@ -1,4 +1,6 @@
-﻿namespace Fourth_project.Cycles;
+﻿using ModelsLibrary;
+
+namespace Fourth_project.Cycles;
 
 public class Program
 {
@@ -19,9 +21,10 @@ public class Program
 
                 for (int i = 0; i < userNumber; i++)
                 {
-                    await WriteToConsole(ImageAsStringConstants.BearWithOpenedEyes, random.Next(3000, 4000));
+                    await Writer.WriteToConsole(
+                        ImageAsStringConstants.BearWithOpenedEyes, random.Next(3000, 4000));
 
-                    await WriteToConsole(ImageAsStringConstants.BearWithClosedEyes, 900);
+                    await Writer.WriteToConsole(ImageAsStringConstants.BearWithClosedEyes, 900);
                 }
             }
             else
@@ -30,14 +33,5 @@ public class Program
             }
         }
         while (userNumber <= 0);
-    }
-
-    public static async Task WriteToConsole(string message, int interval)
-    {
-        Console.WriteLine(message);
-
-        await Task.Run(() => Thread.Sleep(interval));
-
-        Console.Clear();
     }
 }
